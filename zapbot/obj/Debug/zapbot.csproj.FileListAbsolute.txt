@@ -1,0 +1,10 @@
+D:\Projetos\zapbot\zapbot\bin\Debug\zapbot.exe.config
+D:\Projetos\zapbot\zapbot\bin\Debug\zapbot.exe
+D:\Projetos\zapbot\zapbot\bin\Debug\zapbot.pdb
+D:\Projetos\zapbot\zapbot\obj\Debug\zapbot.csprojAssemblyReference.cache
+D:\Projetos\zapbot\zapbot\obj\Debug\zapbot.formPrincipal.resources
+D:\Projetos\zapbot\zapbot\obj\Debug\zapbot.Properties.Resources.resources
+D:\Projetos\zapbot\zapbot\obj\Debug\zapbot.csproj.GenerateResource.cache
+D:\Projetos\zapbot\zapbot\obj\Debug\zapbot.csproj.CoreCompileInputs.cache
+D:\Projetos\zapbot\zapbot\obj\Debug\zapbot.exe
+D:\Projetos\zapbot\zapbot\obj\Debug\zapbot.pdb

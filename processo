@@ -1,0 +1,40 @@
+
+zapbot
+
+FUNÇÃO:	
+	1º -> Enviar mensagem e 2 imagens para as listas de transmissão;
+	2º -> Enviar 2 ou mais imagens para as listas de transmissão;
+	
+--------------------
+Ler arquivo txt com o nome das listas de transmissão;
+Verificar se a janela ativa é a do navegador (web.whatsapp.com);
+
+aguardar tempo(5 segundos)
+https://docs.microsoft.com/pt-br/office/vba/language/reference/user-interface-help/sendkeys-statement
+https://docs.microsoft.com/pt-br/dotnet/api/system.windows.forms.sendkeys.send?view=netcore-3.1
+
+Iniciar processo de envio:
+	Na tela do whatsapp web:
+	
+	iniciar loop
+		Teclar TAB;		
+		aguardar tempo();
+		digitar o nome da primeira lista;
+		aguardar tempo();
+		teclar ENTER;
+		aguardar tempo();
+		escrever mensagem;
+		aguardar tempo();
+		Teclar ENTER;
+		aguardar tempo();
+		
+		loop das imagens
+		{
+			colar 1ª imagem;
+			aguardar tempo();
+			colar 2ª imagem;
+		}
+		
+	finalizar loop
+	
+	

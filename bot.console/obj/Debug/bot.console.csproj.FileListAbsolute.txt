@@ -1,0 +1,7 @@
+D:\Projetos\zapbot\bot.console\bin\Debug\bot.console.exe.config
+D:\Projetos\zapbot\bot.console\bin\Debug\bot.console.exe
+D:\Projetos\zapbot\bot.console\bin\Debug\bot.console.pdb
+D:\Projetos\zapbot\bot.console\obj\Debug\bot.console.csproj.CoreCompileInputs.cache
+D:\Projetos\zapbot\bot.console\obj\Debug\bot.console.exe
+D:\Projetos\zapbot\bot.console\obj\Debug\bot.console.pdb
+D:\Projetos\zapbot\bot.console\obj\Debug\bot.console.csprojAssemblyReference.cache
