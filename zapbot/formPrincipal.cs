@@ -10,9 +10,6 @@ namespace zapbot
 {
     public partial class formPrincipal : Form
     {
-        //[DllImport("user32.dll")]
-        //static extern IntPtr GetForegroundWindow();
-
         public formPrincipal()
         {
             InitializeComponent();
@@ -42,13 +39,13 @@ namespace zapbot
             }
         }
 
+        private void abrirNavegador()
+        {
+            Process.Start("https://web.whatsapp.com");
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            //envia para a area de tranferencia do windows
-            //Clipboard.SetText("ENVIANDO TEXTO A AREA DE TRANFERENCIA DO WINDOWS");
-            //Clipboard.SetImage(pbIMG_1.Image);
-            //tesss();
-            processarEnvioWhats("Teste Automatizado");
         }
 
 
@@ -70,6 +67,8 @@ namespace zapbot
 
         private void processarEnvioWhats(string contato)
         {
+            string mensagem = txtMsg.Text;
+
             try
             {
                 Thread.Sleep(5000);
@@ -82,7 +81,7 @@ namespace zapbot
                 SendKeys.Send("^{v}");
                 
                 Thread.Sleep(5000);
-                Clipboard.SetText("Inicianado testes automatizados......");
+                Clipboard.SetText(mensagem);
                 
                 Thread.Sleep(5000);
                 SendKeys.Send("{ENTER}");
@@ -93,34 +92,25 @@ namespace zapbot
                 Thread.Sleep(5000);
                 SendKeys.Send("{ENTER}");
 
-                if((imgFoto1.ImageLocation != "") | (imgFoto2.ImageLocation != ""))
-                {
-                    Clipboard.SetImage(imgFoto1.Image);
-                    Thread.Sleep(5000);
-                    SendKeys.Send("^{v}");
-                    Thread.Sleep(5000);
-                    SendKeys.Send("{ENTER}");
+                carregarImagens(2000);
 
-                    Thread.Sleep(5000);
-                    Clipboard.SetImage(imgFoto2.Image);
-                    Thread.Sleep(5000);
-                    SendKeys.Send("^{v}");
-                    Thread.Sleep(5000);
-                    SendKeys.Send("{ENTER}");
-                }       
-                Application.Exit();
+                //Application.Exit();
+                //return;
+
+                MessageBox.Show("Processo finalizado com sucesso!", "Enviar Mensagens", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                MessageBox.Show("Erro ao processar envio.\nMais detalhes: " + ex.Message, "Colar Imagem", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void carregarImagens(int tempo)
         {
             try
-            {
-                if (imgFoto1.ImageLocation != "")
+            { 
+
+                if (imgFoto1.Image != null)
                 {
                     Clipboard.SetImage(imgFoto1.Image);
                     Thread.Sleep(tempo);
@@ -128,10 +118,111 @@ namespace zapbot
                     Thread.Sleep(tempo);
                     SendKeys.Send("{ENTER}");
                 }
-            }
-            catch
-            {
 
+                Thread.Sleep(2000);
+
+                if (imgFoto2.Image != null)
+                {
+                    Clipboard.SetImage(imgFoto2.Image);
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("^{v}");
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("{ENTER}");
+                }
+
+                Thread.Sleep(2000);
+
+                if (imgFoto3.Image != null)
+                {
+                    Clipboard.SetImage(imgFoto3.Image);
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("^{v}");
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("{ENTER}");
+                }
+
+                Thread.Sleep(2000);
+
+                if (imgFoto4.Image != null)
+                {
+                    Clipboard.SetImage(imgFoto4.Image);
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("^{v}");
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("{ENTER}");
+                }
+
+                Thread.Sleep(2000);
+
+                if (imgFoto5.Image != null)
+                {
+                    Clipboard.SetImage(imgFoto5.Image);
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("^{v}");
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("{ENTER}");
+                }
+
+                Thread.Sleep(2000);
+
+                if (imgFoto6.Image != null)
+                {
+                    Clipboard.SetImage(imgFoto6.Image);
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("^{v}");
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("{ENTER}");
+                }
+
+                Thread.Sleep(2000);
+
+                if (imgFoto7.Image != null)
+                {
+                    Clipboard.SetImage(imgFoto7.Image);
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("^{v}");
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("{ENTER}");
+                }
+
+                Thread.Sleep(2000);
+
+                if (imgFoto8.Image != null)
+                {
+                    Clipboard.SetImage(imgFoto8.Image);
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("^{v}");
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("{ENTER}");
+                }
+
+                Thread.Sleep(2000);
+
+                if (imgFoto9.Image != null)
+                {
+                    Clipboard.SetImage(imgFoto9.Image);
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("^{v}");
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("{ENTER}");
+                }
+
+                Thread.Sleep(2000);
+
+                if (imgFoto10.Image != null)
+                {
+                    Clipboard.SetImage(imgFoto10.Image);
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("^{v}");
+                    Thread.Sleep(tempo);
+                    SendKeys.Send("{ENTER}");
+                }
+
+                Thread.Sleep(2000);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao carregar imagem.\nMais detalhes: " + ex.Message, "Colar Imagem", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -193,6 +284,28 @@ namespace zapbot
         private void btnImagem10_Click(object sender, EventArgs e)
         {
             adicionarImagem(imgFoto10);
+        }
+
+        private void btnEnviar_Click_1(object sender, EventArgs e)
+        {
+            abrirNavegador();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {            
+            try
+            {
+                //teste();
+                processarEnvioWhats("Teste Automatizado");
+            }
+            catch
+            {
+
+            }
+            finally
+            {
+                //Application.Exit();
+            }
         }
     }
 }
