@@ -8,3 +8,17 @@ D:\Projetos\zapbot\zapbot\obj\Debug\zapbot.csproj.GenerateResource.cache
 D:\Projetos\zapbot\zapbot\obj\Debug\zapbot.csproj.CoreCompileInputs.cache
 D:\Projetos\zapbot\zapbot\obj\Debug\zapbot.exe
 D:\Projetos\zapbot\zapbot\obj\Debug\zapbot.pdb
+D:\Projetos\RobotWhatsapp\zapbot\bin\Debug\zapbot.exe.config
+D:\Projetos\RobotWhatsapp\zapbot\bin\Debug\zapbot.exe
+D:\Projetos\RobotWhatsapp\zapbot\bin\Debug\zapbot.pdb
+D:\Projetos\RobotWhatsapp\zapbot\obj\Debug\zapbot.csprojAssemblyReference.cache
+D:\Projetos\RobotWhatsapp\zapbot\obj\Debug\zapbot.formPrincipal.resources
+D:\Projetos\RobotWhatsapp\zapbot\obj\Debug\zapbot.Properties.Resources.resources
+D:\Projetos\RobotWhatsapp\zapbot\obj\Debug\zapbot.csproj.GenerateResource.cache
+D:\Projetos\RobotWhatsapp\zapbot\obj\Debug\zapbot.csproj.CoreCompileInputs.cache
+D:\Projetos\RobotWhatsapp\zapbot\obj\Debug\zapbot.exe
+D:\Projetos\RobotWhatsapp\zapbot\obj\Debug\zapbot.pdb
+D:\Projetos\RobotWhatsapp\zapbot\obj\Debug\zapbot.formContato.resources
+D:\Projetos\RobotWhatsapp\zapbot\bin\Debug\botclass.dll
+D:\Projetos\RobotWhatsapp\zapbot\bin\Debug\botclass.pdb
+D:\Projetos\RobotWhatsapp\zapbot\obj\Debug\zapbot.csproj.CopyComplete

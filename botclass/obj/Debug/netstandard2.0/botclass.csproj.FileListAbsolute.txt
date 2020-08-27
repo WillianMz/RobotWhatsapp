@@ -7,3 +7,12 @@ D:\Projetos\zapbot\botclass\obj\Debug\netstandard2.0\botclass.AssemblyInfo.cs
 D:\Projetos\zapbot\botclass\obj\Debug\netstandard2.0\botclass.csproj.CoreCompileInputs.cache
 D:\Projetos\zapbot\botclass\obj\Debug\netstandard2.0\botclass.dll
 D:\Projetos\zapbot\botclass\obj\Debug\netstandard2.0\botclass.pdb
+D:\Projetos\RobotWhatsapp\botclass\bin\Debug\netstandard2.0\botclass.deps.json
+D:\Projetos\RobotWhatsapp\botclass\bin\Debug\netstandard2.0\botclass.dll
+D:\Projetos\RobotWhatsapp\botclass\bin\Debug\netstandard2.0\botclass.pdb
+D:\Projetos\RobotWhatsapp\botclass\obj\Debug\netstandard2.0\botclass.csprojAssemblyReference.cache
+D:\Projetos\RobotWhatsapp\botclass\obj\Debug\netstandard2.0\botclass.AssemblyInfoInputs.cache
+D:\Projetos\RobotWhatsapp\botclass\obj\Debug\netstandard2.0\botclass.AssemblyInfo.cs
+D:\Projetos\RobotWhatsapp\botclass\obj\Debug\netstandard2.0\botclass.csproj.CoreCompileInputs.cache
+D:\Projetos\RobotWhatsapp\botclass\obj\Debug\netstandard2.0\botclass.dll
+D:\Projetos\RobotWhatsapp\botclass\obj\Debug\netstandard2.0\botclass.pdb

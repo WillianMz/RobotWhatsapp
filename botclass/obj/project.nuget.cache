@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aSFRQ4BozuwTfMmvY0auqVcg83F5sR3Rh82JKl2qDqKGuFzCpckDXQMP735ICbM9+6EmKFfww0JSVpHTcFLlpQ==",
+  "dgSpecHash": "d5cvo+dzZHYhUnlmvgc15XvHEbgLih/UT3sIWcPJ8h7C8LCinJ5/v2pS2WeQ6xn6Zxs+NmW9XESf5zPq8plLow==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\zapbot\\botclass\\botclass.csproj",
+  "projectFilePath": "D:\\Projetos\\RobotWhatsapp\\botclass\\botclass.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WN\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\WN\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
